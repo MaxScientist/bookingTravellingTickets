@@ -1,0 +1,11 @@
+spring:
+  application:
+#    name: plain-ticket-booking
+      name: booking
+
+  profiles:
+    active:
+      native
+  cloud:
+    config:
+      uri: http://localhost:8888

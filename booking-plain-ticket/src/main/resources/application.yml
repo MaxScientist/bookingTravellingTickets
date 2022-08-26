@@ -1,0 +1,6 @@
+server:
+  port: 8008
+logging:
+  level:
+    org.springframework: WARN
+    com.travelling: DEBUG
